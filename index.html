@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="Container">
+        <H1 ID="heading">STOP WATCH</H1>
+        <div id="watch">
+            <span id="hr" class="time_show">00</span>
+            <span class="unit">hr</span>
+            <span id="min" class="time_show">00</span>
+            <span class="unit">min</span>
+            <span id="sec" class="time_show">00</span>
+            <span class="unit">sec</span>
+            <span id ="timer" class="time_show">00</span>
+        </div>
+        <div id="btn-container">
+            <button id="start" onclick=start()>Start</button>
+            <button id="stop" onclick=stop()>Stop</button>
+            <button id="reset" onclick=reset()>Reset</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="Logic.js"></script>
+</body>
+</html>

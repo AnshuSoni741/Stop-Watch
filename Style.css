@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: #003049;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: center;
+    height: 80vh;
+    width: 180vh;
+    background-color: #f77f00;
+    column-gap:4000px;
+    column-count: 1;
+    border-radius: 8rem;
+}
+#heading{
+font-size: 400%;
+margin-bottom: 30px;
+color: rgb(4, 30, 4);
+}
+#watch{
+    margin: 0px 0px 30px 0px;
+    padding: 2%;
+    background-color: #f79429;
+    opacity: 0.7;
+    border-radius: 2rem;
+    color: rgb(2, 24, 2);
+}
+.time_show{
+    font-size: 100px;
+}
+.unit{
+    font-size: 50px;
+}
+#btn-container{
+    display: flex;   
+    flex-wrap: wrap;
+    column-gap: 40px;
+    padding-bottom: 50px;
+}
+#btn-container button{
+width: 200px;
+height: 60px;
+font-size: 30px;
+border-radius: 4rem;
+border: none;
+color: white;
+}
+
+
+#start{
+background-color: rgb(10, 71, 76);
+}
+
+#stop{
+    background-color: rgb(10, 71, 76);
+}
+
+#reset{
+    background-color: rgb(10, 71, 76);
+}
